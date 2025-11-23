@@ -73,11 +73,19 @@ if menu == "🏠 Dashboard":
     7️⃣ Usar la **Calculadora interactiva** para probar otros escenarios.  
     """)
     st.subheader("📄 PDF del documento original")
-    try:
-        with open(r"C:\Users\USUARIO\Downloads\PROYECTO IO\A-mathematical-programming-model-for-scheduling-of-nurses-labor-shiftsJournal-of-Medical-Systems.pdf", "rb") as pdf_file:
-            st.download_button("Descargar PDF", pdf_file, file_name="modelo_enfermeria.pdf")
-    except:
-        st.error("❌ No se encontró el archivo PDF en la ruta especificada.")
+    pdf_url = "https://drive.google.com/file/d/1Rd9sPU9I0pNGOMvJ3tocUnpNaPz6Zz7T/view?usp=sharing"
+
+    st.markdown(
+        f"""
+        <a href="{pdf_url}" target="_blank">
+            <button style="background-color:#4CAF50;color:white;padding:10px 15px;
+            border:none;border-radius:6px;font-size:16px;cursor:pointer;">
+                📘 Abrir PDF en nueva pestaña
+                </button>
+        </a>
+        """,
+        unsafe_allow_html=True
+      )  
     # -----------------------------------------
     # 4. ¿QUÉ HACE ESTA PÁGINA WEB?
     # -----------------------------------------
@@ -609,5 +617,6 @@ if menu == "🧮 Calculadora interactiva":
             - Esta gráfica muestra si la **segunda persona** puede asumir los turnos restantes.  
             - Permite validar rápidamente si la redistribución es viable.  
             """)
+
 
 
