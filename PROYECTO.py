@@ -72,20 +72,7 @@ if menu == "🏠 Dashboard":
     6️⃣ Analizar las gráficas explicadas.  
     7️⃣ Usar la **Calculadora interactiva** para probar otros escenarios.  
     """)
-    st.subheader("📄 PDF del documento original")
-    pdf_url = "https://drive.google.com/file/d/1Rd9sPU9I0pNGOMvJ3tocUnpNaPz6Zz7T/view?usp=sharing"
-
-    st.markdown(
-        f"""
-        <a href="{pdf_url}" target="_blank">
-            <button style="background-color:#4CAF50;color:white;padding:10px 15px;
-            border:none;border-radius:6px;font-size:16px;cursor:pointer;">
-                📘 Abrir PDF en nueva pestaña
-                </button>
-        </a>
-        """,
-        unsafe_allow_html=True
-      )  
+ 
     # -----------------------------------------
     # 4. ¿QUÉ HACE ESTA PÁGINA WEB?
     # -----------------------------------------
