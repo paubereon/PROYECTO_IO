@@ -116,7 +116,8 @@ if menu == "🏠 Dashboard":
 
         Así, la programación lineal ayuda a tomar decisiones óptimas dentro de un hospital. 
         """)
-        st.image("images/PROGRAMACION_LINEAL.JPG", use_container_width=True)
+        st.image("programacionlineal.JPG", use_container_width=True)
+
 
 
     with st.expander("🧩 Elementos principales de la Programación Lineal"):
@@ -134,7 +135,7 @@ if menu == "🏠 Dashboard":
         - **Programación Mixta:** combina reales con enteras.
         - **Programación por Metas:** maneja múltiples objetivos. 
         """)
-        st.image("images/ELEMENTOS PRINICPALES DE PROGRAMCION LINEAL.PNG", use_container_width=True)
+        st.image("elemento.JPG", use_container_width=True)
         st.write("""
         Un modelo de programación lineal está compuesto por:
 
@@ -160,13 +161,13 @@ if menu == "🏠 Dashboard":
         2. Definir restricciones  
         3. Construir función objetivo  
         """)
-        st.image("images/ETAPAS DE PROGRMACION LINEAL.PNG", use_container_width=True)
+        st.image("etapas.JPG", use_container_width=True)
 
 
 
     with st.expander("🌟 Beneficios de la Programación Lineal"):
         st.write("Permite optimizar recursos, reducir costos y mejorar decisiones.")
-        st.image("images/BENEFICIOS.JPG", use_container_width=True)
+        st.image("beneficios.JPG", use_container_width=True)
 
 # =======================
 # 1. DASHBOARD
@@ -609,6 +610,7 @@ if menu == "🧮 Calculadora interactiva":
             - Esta gráfica muestra si la **segunda persona** puede asumir los turnos restantes.  
             - Permite validar rápidamente si la redistribución es viable.  
             """)
+
 
 
 
