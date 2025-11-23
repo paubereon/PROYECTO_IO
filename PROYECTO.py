@@ -116,7 +116,7 @@ if menu == "🏠 Dashboard":
 
         Así, la programación lineal ayuda a tomar decisiones óptimas dentro de un hospital. 
         """)
-        st.image("images/PROGRAMACION LINEAL.JPG", use_container_width=True)
+        st.image("images/PROGRAMACION_LINEAL.JPG", use_container_width=True)
 
 
     with st.expander("🧩 Elementos principales de la Programación Lineal"):
@@ -609,5 +609,6 @@ if menu == "🧮 Calculadora interactiva":
             - Esta gráfica muestra si la **segunda persona** puede asumir los turnos restantes.  
             - Permite validar rápidamente si la redistribución es viable.  
             """)
+
 
 
